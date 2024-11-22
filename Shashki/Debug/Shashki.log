@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  Game.cpp
+  GamePainter.cpp
+  Player.cpp
+C:\Users\NIKITA\Desktop\Поддавки_КР\Shashki\Player.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\NIKITA\Desktop\Поддавки_КР\Shashki\Player.cpp(27,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Shashki.cpp
+C:\Users\NIKITA\Desktop\Поддавки_КР\Shashki\Shashki.cpp(205,7): warning C4101: msg: неиспользованная локальная переменная
+  Создание кода...
+C:\Users\NIKITA\Desktop\Поддавки_КР\Shashki\Game.cpp(52): warning C4715: Game::isCellEnemyFor: значение возвращается не при всех путях выполнения
+C:\Users\NIKITA\Desktop\Поддавки_КР\Shashki\Game.cpp(58): warning C4715: Game::isCellMy: значение возвращается не при всех путях выполнения
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___invalid_parameter в функции "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned int)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z).
+Player.obj : error LNK2001: неразрешенный внешний символ __imp___invalid_parameter.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp___CrtDbgReport в функции "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned int)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z).
+Player.obj : error LNK2001: неразрешенный внешний символ __imp___CrtDbgReport.
+C:\Users\NIKITA\Desktop\Поддавки_КР\Debug\Shashki.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
